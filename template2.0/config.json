@@ -1,0 +1,75 @@
+var clientId="b6o4n1g0osr0v4ovzcuoml6gdg24iupu";
+
+//Change this to true to show the signup option
+//signing up will create an app user with the name and email as the external_app_user_id = the email needs to be unique!
+var showSignUp = true;
+
+//Add here the ids of any group you want the new user added to on creation
+//This will help if you load a specific folder for the user on login
+//comma separated liist like this ["12345676","123456789"]
+var newUserGroupIds = ["8483639218"];
+//Add here any folderIds you want the new user added to on creation (currently as editor)
+////This will help if you load a specific folder for the user on login
+//comma separated liist like this ["12345676","123456789"]
+var newUserFolderIds=["143824983827"];
+
+//Navigation
+var navigation=[
+
+  {
+      "page":"landing.html",
+      "title":"Sébastien's Company"
+  },
+
+  {
+      "page":"folder2.html",
+      "title":"FOLDER",
+      "boxId":"0"
+  },
+  {
+    "page":"tree_local.html",
+    "title":"TREEVIEW",
+    "boxId":"0"
+},
+  {
+      "page":"preview1.html",
+      "title":"PREVIEW",
+      "boxId":"839330590544"
+  },
+  {
+    //Templates - https://peter-demo.box.com/s/6uu9k93otq9f53s8stsm4tusbxai48aq
+    "page":"signrequest.html",
+    "title":"BOX SIGN",
+    "boxId":"160537204920",
+    "targetFolderId":"160537431727",
+  },
+
+  {
+      "page":"uploader.html",
+      "title":"UPLOADER",
+      "boxId":"151204923463"
+  },
+
+  {
+      "page":"mdq.html",
+      "title":"METADATA VIEW",
+      "boxId":"160536791871",
+      "eid":"825366053",
+      "template":"platformgithub",
+      "columns":"Region,caseid,firstname",
+      "filters":"Region,caseid,firstname",
+      "caseid":"A122,A123,A141",
+      "firstname":"Arthur,Dent,Ralph"
+  },
+  {
+      "page":"map_folder.html",
+      "title":"MAP",
+      "boxId":"160537785593",
+      "latitude":48.85780706237441,
+      "longitude":2.2942854232788124,
+      "zoomLevel":15
+    }
+
+
+
+];
