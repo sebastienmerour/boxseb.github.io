@@ -56,10 +56,11 @@ var navigation=[
       "boxId":"160536791871",
       "eid":"825366053",
       "template":"platformgithub",
-      "columns":"Region,caseid,firstname",
-      "filters":"Region,caseid,firstname",
-      "caseid":"A122,A123,A141",
-      "firstname":"Arthur,Dent,Ralph"
+      "columns":"Category,Color,Size",
+      "filters":"Category,Color,Size",
+      "Category":"Shirt,Dress,Pant",
+      "Size":"S,M,L,XL",
+      "Color":"Black,Blue,Green,Grey",
   },
   {
       "page":"map_folder.html",
