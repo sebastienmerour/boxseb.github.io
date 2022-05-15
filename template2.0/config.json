@@ -55,12 +55,12 @@ var navigation=[
       "title":"METADATA VIEW",
       "boxId":"160536791871",
       "eid":"825366053",
-      "template":"platformgithub",
-      "columns":"Category,Color,Size",
-      "filters":"Category,Color,Size",
-      "Category":"Shirt,Dress,Pant",
-      "Size":"S,M,L,XL",
-      "Color":"Black,Blue,Green,Grey",
+      "template":"platformgithub1",
+      "columns":"category,color,size",
+      "filters":"category,color,size",
+      "category":"Shirt,Dress,Pant",
+      "size":"S,M,L,XL",
+      "color":"Black,Blue,Green,Grey"
   },
   {
       "page":"map_folder.html",
