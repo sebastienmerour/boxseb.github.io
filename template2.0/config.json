@@ -18,7 +18,7 @@ var navigation=[
 
   {
       "page":"landing.html",
-      "title":"Sébastien's Company"
+      "title":"Sébastien's Business"
   },
 
   {
@@ -34,26 +34,26 @@ var navigation=[
   {
       "page":"preview1.html",
       "title":"PREVIEW",
-      "boxId":"839330590544"
+      "boxId":"1745529191231"
   },
   {
     //Templates - https://peter-demo.box.com/s/6uu9k93otq9f53s8stsm4tusbxai48aq
     "page":"signrequest.html",
     "title":"BOX SIGN",
-    "boxId":"160537204920",
-    "targetFolderId":"160537431727",
+    "boxId":"301976482879",
+    "targetFolderId":"301975672341",
   },
 
   {
       "page":"uploader.html",
       "title":"UPLOADER",
-      "boxId":"151204923463"
+      "boxId":"301974004624"
   },
 
   {
       "page":"mdq.html",
       "title":"METADATA VIEW",
-      "boxId":"160536791871",
+      "boxId":"301975825216",
       "eid":"825366053",
       "template":"platformgithub1",
       "columns":"category,color,size",
